@@ -54,23 +54,41 @@ body {
 	margin-bottom: 20px
 }
 
+/* サイドメニュー */
+.sidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.sidemenu li a {
+	display: block;
+	padding: 5px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none
+}
+
+.sidemenu li a:hover {
+	background-color: #eeeeee
+}
 
 @media (min-width: 768px) {
 
 /* BOX3とBOX4を横に並べる設定 */
-.box:after {
-	content : "";
-	display : block;
+.boxA:after {
+	content: "";
+	display: block;
 	clear   : both
 }
 
 .box3 {
-	float   : left;
-	width   : 70%
+	float: left;
+	width: 70%
 }
 .box4 {
-	float   : left;
-	width   : 30%
+	float: left;
+	width: 30%
 }
 
 }
