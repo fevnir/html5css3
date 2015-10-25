@@ -53,6 +53,9 @@ body {
 	margin-top: 0;
 	margin-bottom: 20px
 }
+.kiji img {
+	max-width: 100%;
+	height: auto}
 
 /* サイドメニュー */
 .sidemenu {margin-bottom: 30px}
