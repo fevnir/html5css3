@@ -134,6 +134,13 @@ body {
 	font-size: 18px
 }
 
+/* コピーライト */
+.copyright p {
+	margin: 0;
+	color: #666666;
+	font-size: 14px
+}
+
 @media (min-width: 768px) {
 
 /* BOX3とBOX4を横に並べる設定 */
