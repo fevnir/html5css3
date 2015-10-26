@@ -24,7 +24,7 @@ body {
 
 .menu li a {
 	display: block;
-	padding: 5px;
+	padding: 15px;
 	color: #000000;
 	font-size: 14px;
 	text-decoration: none
@@ -143,6 +143,9 @@ body {
 	color: #666666;
 	font-size: 14px
 }
+
+/* BOX2をバーの形にする */
+.box2 {background-color: #7cbac1}
 
 @media (min-width: 768px) {
 
