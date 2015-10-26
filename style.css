@@ -30,7 +30,7 @@ body {
 	text-decoration: none
 }
 
-.menu li a:hover {background-color: #eeeeee}
+.menu li a:hover {background-color: #75dbe7}
 
 .menu ul:after {
 	content: "";
@@ -146,6 +146,9 @@ body {
 
 /* BOX2をバーの形にする */
 .box2 {background-color: #7cbac1}
+
+/* BOX5の上に区切り線を入れる */
+.box5 {border-top: solid 1px #dddddd}
 
 @media (min-width: 768px) {
 
