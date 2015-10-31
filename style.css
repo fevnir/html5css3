@@ -173,7 +173,17 @@ body {
 	padding-bottom: 15px
 }
 
+/* ## 599px以下 ## */
+@media (max-width: 599px) {
 
+}
+
+/* ## 600px以上 767px以下 */
+@media (max-width: 600px) and (min-width: 767px) {
+
+}
+
+/* ## 768px以上 ## */
 @media (min-width: 768px) {
 
 /* BOX3とBOX4を横に並べる設定 */
@@ -200,4 +210,9 @@ body {
 	box-sizing: border-box
 }
 
+}
+
+/* ## 1040px以上 */
+@media (min-width: 1040px) {
+	
 }
