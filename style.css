@@ -191,7 +191,24 @@ body {
 }
 
 /* ## 600px以上 767px以下 */
-@media (max-width: 600px) and (min-width: 767px) {
+@media (min-width: 600px) and (max-width: 767px) {
+/* box4-1とbox4-2を横に並べる設定 */
+.box4:after {content: "";
+			display: block;
+			clear: both}
+.box4-1 {float: left;
+		width: 50%}
+.box4-2 {float: left;
+		width: 50%}
+
+.box4-1 {padding-right: 20px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box}
+.box4-2 {padding-left: 20px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;}
 
 }
 
