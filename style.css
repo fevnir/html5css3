@@ -187,7 +187,7 @@ body {
 /* ボックスの上下の感覚 */
 .box1 {padding-top: 4px;
 	  padding-bottom: 4px}
-.box3 {padding-top: 25px}
+.box3 {padding-top: 16px}
 }
 
 /* ## 600px以上 767px以下 */
