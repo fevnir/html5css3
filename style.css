@@ -175,7 +175,9 @@ body {
 
 /* ## 599px以下 ## */
 @media (max-width: 599px) {
-
+.menu li a {
+	padding: 10px 3px;
+	font-size: 11px}
 }
 
 /* ## 600px以上 767px以下 */
@@ -214,5 +216,5 @@ body {
 
 /* ## 1040px以上 */
 @media (min-width: 1040px) {
-	
+
 }
