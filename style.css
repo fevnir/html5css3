@@ -175,9 +175,19 @@ body {
 
 /* ## 599px以下 ## */
 @media (max-width: 599px) {
+/* ナビゲーション */
 .menu li a {
 	padding: 10px 3px;
 	font-size: 11px}
+
+/* サイト名とタイトル */
+.site h1 {font-size: 20px}
+.kiji h1 {font-size: 26px}
+
+/* ボックスの上下の感覚 */
+.box1 {padding-top: 4px;
+	  padding-bottom: 4px}
+.box3 {padding-top: 25px}
 }
 
 /* ## 600px以上 767px以下 */
