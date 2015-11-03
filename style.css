@@ -126,6 +126,8 @@ body {
 	font-size: 18px
 
 }
+.sidemenu i {margin-right: 5px;
+			color: #888888}
 
 /* おすすめ記事メニュー */
 .osusume {margin-bottom: 30px}
