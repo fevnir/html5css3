@@ -287,7 +287,13 @@ body {
 .box1 {padding-top: 4px;
 	  padding-bottom: 4px}
 .box3 {padding-top: 16px}
+
+/* SNSのシェアボタン */
+.share span {display: inline-block;
+			text-indent: -9999px}
 }
+
+
 
 /* ## 600px以上 767px以下 */
 @media (min-width: 600px) and (max-width: 767px) {
