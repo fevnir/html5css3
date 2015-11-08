@@ -98,6 +98,9 @@ body {
 		  width: 33.3333%}
 
 /* 関連記事メニュー */
+.kanren {margin-top: 40px;
+		padding: 20px;
+		background-color: #f0f0d4}
 .kanren ul {
 	margin: 0;
 	padding: 0;
