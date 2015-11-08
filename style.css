@@ -74,6 +74,7 @@ body {
 			font-size: 20px}
 
 /* SNSのシェアボタン */
+.share {margin-top: 40px}
 .share ul {margin-top: 0;
 		  padding: 0;
 		  list-style: none}
