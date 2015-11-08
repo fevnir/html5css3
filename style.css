@@ -123,6 +123,9 @@ body {
 	float: left;
 	width: 25%
 }
+.kanren img {max-width: 100%;
+			height: auto;
+			border: none}
 
 
 /* 記事の分類 */
