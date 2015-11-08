@@ -112,7 +112,7 @@ body {
 	text-decoration: none
 }
 
-.kanren li a:hover {background-color: #eeeeee}
+.kanren li a:hover {text-decoration: underline}
 
 .kanren ul:after {
 	content: "";
