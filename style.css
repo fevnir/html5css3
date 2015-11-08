@@ -73,6 +73,24 @@ body {
 			color: #aaaaaa;
 			font-size: 20px}
 
+/* SNSのシェアボタン */
+.share ul {margin-top: 0;
+		  padding: 0;
+		  list-style: none}
+
+.share li a {display: block;
+			padding: 5px;
+			color: #000000;
+			font-size: 14px;
+			text-decoration: none}
+.share li a:hover {background-color: #eeeeee}
+
+.share ul:after {content: "";
+				display: block;
+				clear: both}
+.share li {float: left;
+		  width: auto}
+
 /* 記事の分類 */
 .kijicat {margin-bottom: 25px}
 .kijicat ul {
