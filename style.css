@@ -89,7 +89,7 @@ body {
 				display: block;
 				clear: both}
 .share li {float: left;
-		  width: auto}
+		  width: 33.3333%}
 
 /* 記事の分類 */
 .kijicat {margin-bottom: 25px}
