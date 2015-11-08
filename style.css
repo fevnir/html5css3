@@ -97,6 +97,34 @@ body {
 .share li {float: left;
 		  width: 33.3333%}
 
+/* 関連記事メニュー */
+.kanren ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.kanren li a {
+	display: block;
+	padding: 5px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none
+}
+
+.kanren li a:hover {background-color: #eeeeee}
+
+.kanren ul:after {
+	content: "";
+	display: block;
+	clear: both
+}
+.kanren li {
+	float: left;
+	width: auto
+}
+
+
 /* 記事の分類 */
 .kijicat {margin-bottom: 25px}
 .kijicat ul {
