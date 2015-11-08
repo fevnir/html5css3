@@ -106,7 +106,7 @@ body {
 		   color: #727224;
 		   font-size: 20px;
 		   font-weight: normal}
-		   
+
 .kanren ul {
 	margin: 0;
 	padding: 0;
@@ -331,7 +331,15 @@ body {
 /* SNSのシェアボタン */
 .share span {display: inline-block;
 			text-indent: -9999px}
+
+/* 関連記事メニュー */
+.kanren {padding: 10px}
+.kanren li {width: 50%}
+
+.kanren li:nth-child(3) {clear: both}
+
 }
+
 
 
 
